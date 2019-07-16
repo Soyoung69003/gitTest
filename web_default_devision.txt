@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>default</title>
+<!-- https://mainia.tistory.com/4210 -->
+<!-- 스타일 시작 -->
+<style>
+
+*{
+font-family: times new roman, sans-serif, 나눔스퀘어;
+font-weight : bold;
+font-size : 15pt;
+}
+
+div#wrapper {
+	width: 100%;
+	text-align : left;
+	min-height : 300px;
+	margin : 0 auto;
+}
+
+header{
+background-color : rgb(250, 202, 244, 0.5);
+height : 200px;
+}
+
+
+nav{
+background-color : lightblue;
+min-height : 700px;
+float : left;
+width : 15%;
+margin-top : 3px;
+}
+
+article{
+background-color : beige;
+min-height : 700px;
+float : left;
+width : 69.65%;
+text-align : center;
+margin : 3px;
+}
+
+table{
+border : 1px solid black;
+width : 95%;
+height : 600px;
+border-collapse : collapse;
+margin-left : 2.5%;
+}
+
+td, th{
+border : 1px solid black;
+}
+
+aside{
+background-color : lightblue;
+min-height : 700px;
+float : right;
+width : 15%;
+margin-top : 3px;
+}
+
+footer{
+background-color : lightgrey;
+height : 200px;
+position : relative;
+clear : both;
+}
+
+</style>
+</head>
+<body>
+	<div id=wrapper>
+	<!-- 헤더 시작 -->
+	<header>
+	Header 헤더
+	</header>
+	<!--  내비 -->
+	<nav>
+	Navi 내비
+	</nav>
+	<!-- 콘텐츠 부분 -->
+	<section>
+	<article>
+	<h3>Article 아티클</h3><br>
+	<table>
+		<tr>
+		<td>1,1</td>
+		<td>1,2</td>
+		</tr>
+		<tr>
+		<td>2,1</td>
+		<td>2,2</td>
+		</tr>
+	</table>
+	
+	</article>
+	</section>
+	<!-- 사이드바 -->
+	<aside>
+	Aside 사이드바
+	</aside>
+	<!-- 푸터 -->
+	<footer>
+	Footer 푸터
+	</footer>
+	</div>
+</body>
+
+</html>
